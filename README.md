@@ -1,16 +1,13 @@
-# apps
+Packages Used for Geolocation :
+Geolocator 9.0.1
+Package for Geofence :
+Geofence 0.4.4
 
-A new Flutter project.
+Approach :
+I have started with a very basic application where the user clicks on a button and gets his current location. 
+This was to get an overview of the geolocation library and its use cases.
+Further I will use function from both the geolocator and geofence packages to implement the kind of geofencing required for our application.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
