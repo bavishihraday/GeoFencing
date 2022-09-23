@@ -1,16 +1,11 @@
-# fairticketsolutions_demo_app
-
-A new Flutter application.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Geofence service enabled in the demo app :
+1. The Geofence feature has been implemented in the demo app.
+2. There are 2 meehtods to invoke the service :
+   1> There is a event listener running in the background that gets triggered whenver user either enters the geofence or exits it 
+   and a message appears at the bottom of the screen telling the user that he has entered/exited the fence.
+   2> Currently, we have another green floating button on the home screen that can clicked to check the status of the user, and can be seen
+   as a message on the bottom of the screen.
+      The Status will be one of these three: 
+      1. Status.Initialize : The current location of user has not been captured yet, and geofence service is waiting for the location.
+      2. Status.ENTER
+      3. Status.EXIT
